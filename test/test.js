@@ -1,18 +1,4 @@
-
-### install
-```sh
-npm install jj-dateformat
-```
-
-### run test
-```sh
-npm run test
-```
-
-### usage
-
-```javascript
-var JJDateformat = require('jj-dateformat');
+var JJDateformat = require('../index.js');
 
 var now = new Date();
 var dateformat = new JJDateformat("yyyy/MM/dd HH:hh:mm a");
@@ -30,5 +16,3 @@ console.log("JJ:", D_s); //  2019/12/19 13:01:18 pm
 
 var D_n = dateformat_.format(1576732710444);
 console.log("JJ:", D_n); //  2019/12/19 13:01:18 pm
-
-```
